@@ -13,6 +13,12 @@ app.config(function($routeProvider) {
     .when("/sanPham", {
         templateUrl : "sanPham.html",
     })
+    .when("/gioHang", {
+        templateUrl : "gioHang.html",
+    })
+    .when("/dangNhap", {
+        templateUrl : "dangNhap.html",
+    })
     .otherwise({
         redirectTo: '/content'
     })
