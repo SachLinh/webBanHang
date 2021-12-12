@@ -7,10 +7,15 @@ ul li {
   list-style: none;
 }
 
+html {
+  background-color: #5b5b5b;
+}
+
 body {
   width: 1170px;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .container2 {
@@ -25,6 +30,9 @@ body {
 
 .header {
   width: 100%;
+  background: #fff;
+  height: 76px;
+  overflow: hidden;
 }
 .header_top {
   width: 100%;
@@ -66,6 +74,7 @@ body {
 }
 .header_Menu {
   background-color: #1e73be;
+  min-height: 33px;
 }
 .header_Menu_root {
   display: flex;
@@ -82,7 +91,7 @@ body {
 }
 .header_item a {
   margin: 3px 10px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   text-transform: uppercase;
   line-height: 55px;
@@ -105,10 +114,11 @@ body {
 
 .content {
   width: 100%;
+  background: #fff;
 }
 .content_HeaderImg {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .content_products {
   display: flex;
@@ -153,8 +163,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 .content_logo {
   display: flex;
@@ -240,8 +250,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .sanPham_left {
   width: 40%;
@@ -286,10 +296,13 @@ body {
   font-weight: bold;
 }
 
+/*------------Footer-------------*/
 .footer {
   width: 100%;
   background-color: #777777;
   color: #f1f1f1;
+  padding: 10px 0;
+  font-weight: 400;
 }
 .footer_root {
   display: flex;
